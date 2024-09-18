@@ -275,12 +275,13 @@
 	.blog_banner .banner_inner .blog_b_text {
 		margin-top: 0px;
 	}
-	.home_banner_area .banner_inner .banner_content img{
-		display: none;
-		width: 100%;           /* Makes the image responsive */
-		max-width: 480px;
-		object-fit: cover;
-	}
+	.home_banner_area .banner_inner .banner_content img {
+		display: block;          /* Ensure the image is displayed */
+		width: 100%;             /* Makes the image responsive */
+		max-width: 480px;        /* Sets the maximum width to 480px */
+		height: auto;            /* Maintain aspect ratio */
+		object-fit: cover;       /* Ensures the image covers the entire space */
+	  }
 	.home_banner_area .banner_inner .banner_content h5 {
 		margin-top: 0px;
 	}
