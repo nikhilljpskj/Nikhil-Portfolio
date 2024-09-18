@@ -279,6 +279,7 @@
 		display: none;
 		width: 100%;           /* Makes the image responsive */
 		max-width: 480px;
+		object-fit: cover;
 	}
 	.home_banner_area .banner_inner .banner_content h5 {
 		margin-top: 0px;
