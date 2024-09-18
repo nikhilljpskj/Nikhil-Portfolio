@@ -277,6 +277,8 @@
 	}
 	.home_banner_area .banner_inner .banner_content img{
 		display: none;
+		width: 100%;           /* Makes the image responsive */
+		max-width: 475px;
 	}
 	.home_banner_area .banner_inner .banner_content h5 {
 		margin-top: 0px;
