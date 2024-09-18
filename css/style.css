@@ -298,7 +298,9 @@ button:focus {
     .home_banner_area .banner_inner .home_left_img img {
       padding-top: 70px;
       border-radius: 50%;  /* Makes the image circular */
-      width: 100%;
+      width: 100%;         /* Ensure the image scales properly */
+      height: auto;        /* Maintain aspect ratio */
+      object-fit: cover;
     }
     .home_banner_area .banner_inner .col-lg-6 {
       align-self: center; }
