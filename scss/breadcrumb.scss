@@ -50,6 +50,14 @@
 	}	
 	
 }
+@media (max-width: 768px) {
+	.home_banner_area .banner_inner .home_left_img img {
+	  padding-top: 20px;   /* Reduce padding for mobile view */
+	  width: 70%;          /* Adjust image size for smaller screens */
+	  margin: 0 auto;      /* Center the image on mobile */
+	  display: block;
+	}
+  }
 
 .blog_banner{
 	min-height: 780px;
